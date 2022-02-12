@@ -1,0 +1,20 @@
+$hdrcolor : #feca57; // variables
+$txtcolor : #c2cfce; // variables
+
+@import "_mixins"; // Partial files
+
+* {
+    @include reset; // including mixin files
+} 
+
+header {
+    @include headerCode(#ee5253);
+}
+
+
+.secondHeader {
+    @include headerCode(#4b4b4b);
+    h1 {
+        &::after { content: "Second header"; }
+    }
+}

@@ -1,0 +1,29 @@
+@mixin reset {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin headerCode($bgColor) {
+    width: 100% - 20%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: $bgColor;
+    color: #fff;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    h1 {
+        color: $hdrcolor;
+        &:hover { color:darkblue; }
+        &::after { content: "First header"; }
+    }
+    
+    p {
+        color: $txtcolor;
+    } 
+    
+}

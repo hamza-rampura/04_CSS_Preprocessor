@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #ee5253;
+  color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+header h1 {
+  color: #feca57;
+}
+header h1:hover {
+  color: darkblue;
+}
+header h1::after {
+  content: "First header";
+}
+header p {
+  color: #c2cfce;
+}
+
+.secondHeader {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #4b4b4b;
+  color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.secondHeader h1 {
+  color: #feca57;
+}
+.secondHeader h1:hover {
+  color: darkblue;
+}
+.secondHeader h1::after {
+  content: "First header";
+}
+.secondHeader p {
+  color: #c2cfce;
+}
+.secondHeader h1::after {
+  content: "Second header";
+}
+
+/*# sourceMappingURL=style.css.map */
